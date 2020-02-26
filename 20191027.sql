@@ -1,0 +1,2 @@
+ALTER TABLE `folios` ADD `Fechadecobro` DATE NOT NULL AFTER `id_alumno`, ADD `Numerosemana` INT NOT NULL AFTER `Fechadecobro`;
+ALTER TABLE `folios` ADD `Totalcolegitura` FLOAT NOT NULL AFTER `Fechadecobro`, ADD `Totalincripcion` FLOAT NOT NULL AFTER `Totalcolegitura`;
